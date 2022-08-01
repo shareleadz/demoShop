@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b8a210932411f1e92efbc1ea00cd9a5d",
+    "content-hash": "2098edb0ebd954a4e3d6111c9ed03514",
     "packages": [
         {
             "name": "alcohol/iso4217",
@@ -4118,87 +4118,6 @@
                 "source": "https://github.com/liip/LiipImagineBundle/tree/2.6.1"
             },
             "time": "2021-05-22T08:55:29+00:00"
-        },
-        {
-            "name": "loevgaard/sylius-brand-plugin",
-            "version": "v2.1.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/loevgaard/SyliusBrandPlugin.git",
-                "reference": "215d54fafa1234f4c59cd281cf48b6a8edf1a879"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/loevgaard/SyliusBrandPlugin/zipball/215d54fafa1234f4c59cd281cf48b6a8edf1a879",
-                "reference": "215d54fafa1234f4c59cd281cf48b6a8edf1a879",
-                "shasum": ""
-            },
-            "require": {
-                "sylius/sylius": "^1.3"
-            },
-            "conflict": {
-                "symfony/browser-kit": "4.1.8",
-                "symfony/dependency-injection": "4.1.8",
-                "symfony/doctrine-bridge": "4.3.0",
-                "symfony/dom-crawler": "4.1.8",
-                "symfony/framework-bundle": "4.3.0",
-                "symfony/routing": "4.1.8",
-                "symfony/symfony": "4.1.8"
-            },
-            "require-dev": {
-                "behat/behat": "^3.4",
-                "behat/mink": "^1.7@dev",
-                "behat/mink-browserkit-driver": "^1.3",
-                "behat/mink-extension": "^2.2",
-                "behat/mink-selenium2-driver": "^1.3",
-                "ergebnis/composer-normalize": "^2.0",
-                "friends-of-behat/mink-debug-extension": "^1.2.3 || ^2.0",
-                "friends-of-behat/page-object-extension": "^0.3",
-                "friends-of-behat/service-container-extension": "^1.0",
-                "friends-of-behat/suite-settings-extension": "^1.0",
-                "friends-of-behat/symfony-extension": "^2.0",
-                "friends-of-behat/variadic-extension": "^1.1",
-                "lchrusciel/api-test-case": "^4.0 || ^5.0",
-                "matthiasnoback/symfony-config-test": "^4.0",
-                "phpspec/phpspec": "^7.0",
-                "phpstan/phpstan": "^0.12 || ^1.0",
-                "phpstan/phpstan-doctrine": "^0.12 || ^1.0",
-                "phpstan/phpstan-symfony": "^0.12 || ^1.0",
-                "phpstan/phpstan-webmozart-assert": "^0.12 || ^1.0",
-                "phpunit/phpunit": "^8.0",
-                "roave/security-advisories": "dev-master",
-                "sensiolabs/security-checker": "^5.0",
-                "sylius-labs/coding-standard": "^4.0",
-                "symfony/browser-kit": "^3.4 || ^4.1",
-                "symfony/debug-bundle": "^3.4 || ^4.1",
-                "symfony/dotenv": "^4.2",
-                "symfony/event-dispatcher": "^3.4 || ^4.1",
-                "symfony/intl": "^3.4 || ^4.1",
-                "symfony/web-profiler-bundle": "^3.4 || ^4.1",
-                "symfony/web-server-bundle": "^3.4 || ^4.1"
-            },
-            "type": "sylius-plugin",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Loevgaard\\SyliusBrandPlugin\\": "src/",
-                    "Tests\\Loevgaard\\SyliusBrandPlugin\\": "tests/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "A Sylius plugin for handling brands",
-            "support": {
-                "issues": "https://github.com/loevgaard/SyliusBrandPlugin/issues",
-                "source": "https://github.com/loevgaard/SyliusBrandPlugin/tree/v2.1.6"
-            },
-            "time": "2022-04-14T16:57:33+00:00"
         },
         {
             "name": "marcj/topsort",
@@ -8387,7 +8306,7 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v2.5.1",
+            "version": "v2.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
@@ -8434,7 +8353,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.1"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.2"
             },
             "funding": [
                 {
@@ -17500,28 +17419,27 @@
         },
         {
             "name": "symfony/browser-kit",
-            "version": "v5.4.3",
+            "version": "v6.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/browser-kit.git",
-                "reference": "18e73179c6a33d520de1b644941eba108dd811ad"
+                "reference": "2e3b6a4406c2af963c634d7bd0457402b67dcc56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/browser-kit/zipball/18e73179c6a33d520de1b644941eba108dd811ad",
-                "reference": "18e73179c6a33d520de1b644941eba108dd811ad",
+                "url": "https://api.github.com/repos/symfony/browser-kit/zipball/2e3b6a4406c2af963c634d7bd0457402b67dcc56",
+                "reference": "2e3b6a4406c2af963c634d7bd0457402b67dcc56",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5",
-                "symfony/dom-crawler": "^4.4|^5.0|^6.0",
-                "symfony/polyfill-php80": "^1.16"
+                "php": ">=8.1",
+                "symfony/dom-crawler": "^5.4|^6.0"
             },
             "require-dev": {
-                "symfony/css-selector": "^4.4|^5.0|^6.0",
-                "symfony/http-client": "^4.4|^5.0|^6.0",
-                "symfony/mime": "^4.4|^5.0|^6.0",
-                "symfony/process": "^4.4|^5.0|^6.0"
+                "symfony/css-selector": "^5.4|^6.0",
+                "symfony/http-client": "^5.4|^6.0",
+                "symfony/mime": "^5.4|^6.0",
+                "symfony/process": "^5.4|^6.0"
             },
             "suggest": {
                 "symfony/process": ""
@@ -17552,7 +17470,7 @@
             "description": "Simulates the behavior of a web browser, allowing you to make requests, click on links and submit forms programmatically",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/browser-kit/tree/v5.4.3"
+                "source": "https://github.com/symfony/browser-kit/tree/v6.1.3"
             },
             "funding": [
                 {
@@ -17568,7 +17486,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-02T09:53:40+00:00"
+            "time": "2022-07-27T15:50:51+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -17716,16 +17634,16 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v6.1.0",
+            "version": "v6.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "baacc99edd169bd8e06723f4c38150ef97feca0f"
+                "reference": "58eb9858d8752ac3586fffb37421441fc18f793c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/baacc99edd169bd8e06723f4c38150ef97feca0f",
-                "reference": "baacc99edd169bd8e06723f4c38150ef97feca0f",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/58eb9858d8752ac3586fffb37421441fc18f793c",
+                "reference": "58eb9858d8752ac3586fffb37421441fc18f793c",
                 "shasum": ""
             },
             "require": {
@@ -17766,7 +17684,7 @@
             "description": "Eases DOM navigation for HTML and XML documents",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/dom-crawler/tree/v6.1.0"
+                "source": "https://github.com/symfony/dom-crawler/tree/v6.1.3"
             },
             "funding": [
                 {
@@ -17782,7 +17700,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-04T14:48:14+00:00"
+            "time": "2022-06-27T17:24:16+00:00"
         },
         {
             "name": "symfony/web-profiler-bundle",
